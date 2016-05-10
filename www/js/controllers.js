@@ -11,4 +11,11 @@ angular.module('app.controllers', [])
 .controller('cloudCtrl', function($scope) {
 
 })
-    
+  
+.controller('preferenceCtrl', function($scope) {
+
+})  
+
+.controller('eventCtrl', function($scope) {
+
+})  

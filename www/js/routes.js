@@ -30,12 +30,32 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.preference', {
+    url: '/preference',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/preference.html',
+        controller: 'preferenceCtrl'
+      }
+    }
+  })
+
   .state('menu.cloud', {
     url: '/page3',
     views: {
       'side-menu21': {
         templateUrl: 'templates/cloud.html',
         controller: 'cloudCtrl'
+      }
+    }
+  })
+
+  .state('menu.event', {
+    url: '/event',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/event.html',
+        controller: 'eventCtrl'
       }
     }
   })
