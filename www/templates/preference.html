@@ -1,32 +1,87 @@
 <ion-view view-title="Preference">
 <ion-nav-buttons side="primary">
-        <button class="button button-clear image-round-button"><img src="img/abn.jpg"></button>
+        <ion-profile-picture ng-model="myPicture"></ion-profile-picture>
+        <!--<button class="button button-clear image-round-button"><img src="img/abn.jpg"></button>-->
     </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
-        <ion-list class="list-inset">
+        <ion-list class="list-inset list-borderless">
             
-            <ion-item class="item-divider">Personal Details</ion-item>
+            <ion-item class="item-divider item-dark">Personal Details</ion-item>
             <ion-item>
-            
-            <label class="item-input">
+            <label class="item-input-inset">
                 <span class="input-label">Username</span>
-                <input type="text" placeholder="Thomas E">
+                <label class="item-input-wrapper">
+                    <input type="text" placeholder="Thomas E">
+                </label>
             </label>
-            <label class="item-input">
+            <label class="item-input-inset">
                 <span class="input-label">Email</span>
-                <input type="text" placeholder="thomas@edison.com">
+                <label class="item-input-wrapper">
+                    <input type="text" placeholder="thomas@edison.com">
+                </label>
             </label>
-            <label class="item-input">
+            <label class="item-input-inset">
                 <span class="input-label">Full Name</span>
-                <input type="text" placeholder="Thomas Edison">
+                <label class="item-input-wrapper">
+                    <input type="text" placeholder="Thomas Edison">
+                </label>
             </label>
-            <button class="button button-outline half-width-button button-positive">Update</button>
+                <br />
+            <div class="button-bar half-width-button" >
+            <button class="button button-small button-outline button-dark">Update</button>
+            </div>
             </ion-item>
-            <ion-item class="item-divider">Interested in..</ion-item>
-            <ion-toggle toggle-class="toggle-positive">Congress</ion-toggle>
-            <ion-toggle toggle-class="toggle-positive">Course</ion-toggle>
-            <ion-toggle toggle-class="toggle-positive">Night Out</ion-toggle>
-            <ion-toggle toggle-class="toggle-positive">Workshop</ion-toggle>
+
+            <ion-item class="item-divider item-dark">Interested in..</ion-item>
+            <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Congress</ion-toggle>
+            <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Course</ion-toggle>
+            <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Night Out</ion-toggle>
+            <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Workshop</ion-toggle>
+            <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Only Free Events</ion-toggle>
+
+            <ion-item class="item-divider item-dark">Filters</ion-item>
+            <ion-item>
+                <label class="item-input-inset">
+                    <span class="input-label">Start Date</span>
+                    <label class="item-input-wrapper">
+                        <input type="text" placeholder="mm/dd/yyyy hh:mm">
+                    </label>
+                </label>
+
+                <label class="item-input-inset">
+                    <span class="input-label">End Date</span>
+                    <label class="item-input-wrapper">
+                        <input type="text" placeholder="mm/dd/yyyy hh:mm">
+                    </label>
+                </label>
+
+                <label class="item-input-inset">
+                    <span class="input-label">Country</span>
+                    <select class="item-input-wrapper">
+                        <option></option>
+                        <option>Switzerland</option>
+                        <option selected>France</option>
+                        <option>Denmark</option>
+                    </select>
+                </label>
+
+                <label class="item-input-inset">
+                    <span class="input-label">Notify every</span>
+                    <select class="item-input-wrapper">
+                        <option></option>
+                        <option>2 days</option>
+                        <option selected>5 days</option>
+                        <option>7 days</option>
+                    </select>
+                </label>
+
+                <br />
+                <div class="button-bar half-width-button" >
+                    <button class="button button-small button-outline button-dark">Update</button>
+                </div>
+            </ion-item>
+
+
         </ion-list>
     </ion-content>
 </ion-view>

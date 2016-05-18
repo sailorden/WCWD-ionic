@@ -60,6 +60,16 @@ angular.module('app.routes', [])
     }
   })
 
+.state('menu.eventAdd', {
+    url: '/eventAdd',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/eventAdd.html',
+        controller: 'eventAddCtrl'
+      }
+    }
+  })
+
   .state('menu', {
     url: '/side-menu21',
     templateUrl: 'templates/menu.html',

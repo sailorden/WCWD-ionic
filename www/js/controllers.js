@@ -1,7 +1,11 @@
-angular.module('app.controllers', [])
+angular.module('app.controllers', ['ionic','ion-profile-picture'])
   
-.controller('whereCanWeDanceCtrl', function($scope) {
-
+.controller('whereCanWeDanceCtrl', function($scope, $ionicModal) {
+        $ionicModal.fromTemplateUrl('templates/modal.html', {
+            scope: $scope
+        }).then(function(modal) {
+            $scope.modal = modal;
+        });
 })
    
 .controller('salsaCubanWorkshopCtrl', function($scope) {
@@ -18,4 +22,9 @@ angular.module('app.controllers', [])
 
 .controller('eventCtrl', function($scope) {
 
-})  
+})
+
+.controller('eventAddCtrl', function($scope) {
+
+})
+

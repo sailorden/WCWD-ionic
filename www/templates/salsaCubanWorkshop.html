@@ -34,24 +34,33 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique metus mauris, facilisis placerat leo tempus et. Vivamus aliquam velit a justo ultricies, at laoreet velit facilisis. In elementum ante nisl, nec ullamcorper felis
                 ultrices in.</p>
         </div>
-        <div class="button-bar">
-            <button id="salsaCubanWorkshop-button17" class="button button-positive  button-block button-outline icon ion-bookmark"></button>
-            <button id="salsaCubanWorkshop-button18" class="button button-positive  button-block button-outline icon ion-android-share-alt"></button>
+        <div class="button-bar half-width-button">
+            <button id="salsaCubanWorkshop-button17" class="button button-small button-dark  button-block icon ion-android-person-add">98</button>
+            <button id="salsaCubanWorkshop-button18" class="button button-small button-dark button-block button-outline icon ion-android-share-alt"></button>
         </div>
-        <ion-list>
+        <br/>
+        <ion-list class="list-borderless">
+
+            <ion-item class="item-divider item-dark">Comments</ion-item>
             <ion-item class="item-avatar">
+                <img src="img/LNh51MsGSJSmxdo3SKCd_bachata.jpg">
                 <h2>Tom Morello</h2>
                 <p>Yeah I'm going...</p>
             </ion-item>
             <ion-item class="item-avatar">
+                <img src="img/qpgJNweMQViCcnzB0yM7_kizomba.jpg">
                 <h2>Andrew S</h2>
                 <p>Waiting since so long for this one</p>
             </ion-item>
-            <ion-item class="item-divider"></ion-item>
-            <label class="item item-input" name="comment">
-                <span class="input-label">Comment</span><textarea placeholder=""> </textarea>
+
+            <label class="item item-input-inset" name="comment">
+                <span class="input-label">Comment</span>
+                <textarea style="min-height: 70px;" class="item-input-wrapper" placeholder="add comment here"> </textarea>
             </label>
         </ion-list>
-        <button id="salsaCubanWorkshop-button20" class="button button-positive  button-block">Add Comment</button>
+        <br />
+        <div class="button-bar half-width-button">
+            <button id="salsaCubanWorkshop-button20" class="button button-small button-dark button-outline">Add Comment</button>
+        </div>
     </ion-content>
 </ion-view>
