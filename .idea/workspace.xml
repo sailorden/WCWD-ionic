@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48000fe-3a25-4106-8a15-58615ba9e9c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/eventAdd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/event.html" afterPath="$PROJECT_DIR$/www/templates/event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menu.html" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/preference.html" afterPath="$PROJECT_DIR$/www/templates/preference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/routes.js" afterPath="$PROJECT_DIR$/www/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/salsaCubanWorkshop.html" afterPath="$PROJECT_DIR$/www/templates/salsaCubanWorkshop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionic/css/style.css" afterPath="$PROJECT_DIR$/www/lib/ionic/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/whereCanWeDance.html" afterPath="$PROJECT_DIR$/www/templates/whereCanWeDance.html" />
     </list>
@@ -37,8 +29,8 @@
       <file leaf-file-name="preference.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/preference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="51" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -48,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -64,24 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="event.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/templates/event.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
+            <state vertical-scroll-proportion="0.20950705">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -90,40 +79,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whereCanWeDance.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="whereCanWeDance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/whereCanWeDance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7">
-              <caret line="63" column="115" selection-start-line="63" selection-start-column="115" selection-end-line="63" selection-end-column="115" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="135" column="89" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="89" />
               <folding>
-                <element signature="n#style#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -184,13 +166,13 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/lib/ion-profile-picture/ion-profile-picture.css" />
         <option value="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/www/lib/ionic/css/style.css" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/www/templates/preference.html" />
         <option value="$PROJECT_DIR$/www/templates/eventAdd.html" />
         <option value="$PROJECT_DIR$/www/templates/salsaCubanWorkshop.html" />
-        <option value="$PROJECT_DIR$/www/templates/event.html" />
+        <option value="$PROJECT_DIR$/www/lib/ionic/css/style.css" />
         <option value="$PROJECT_DIR$/www/templates/whereCanWeDance.html" />
+        <option value="$PROJECT_DIR$/www/templates/event.html" />
       </list>
     </option>
   </component>
@@ -433,7 +415,7 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25340393" sideWeight="0.50643086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25340393" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25340393" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -578,24 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/eventAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.653846">
-          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#label#9;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.384615">
@@ -622,14 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/ionic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6551723">
@@ -640,72 +596,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/preference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="51" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/event.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/eventAdd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
+        <state vertical-scroll-proportion="-14.653846">
+          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#label#9;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/whereCanWeDance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7">
-          <caret line="63" column="115" selection-start-line="63" selection-start-column="115" selection-end-line="63" selection-end-column="115" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="135" column="89" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="89" />
           <folding>
-            <element signature="n#style#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#3;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#4;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#5;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#6;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#7;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20950705">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#1;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#0;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#ion-item#2;n#ion-list#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
