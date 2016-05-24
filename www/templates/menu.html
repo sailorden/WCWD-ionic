@@ -2,6 +2,9 @@
     <ion-side-menu-content>
         <ion-nav-bar class="bar-dark">
             <ion-nav-back-button></ion-nav-back-button>
+            <!--<ion-nav-buttons side="left">-->
+                <!--<button class="button button-dark icon ion-log-in" ng-click="modal.show()"></button>-->
+            <!--</ion-nav-buttons>-->
             <ion-nav-buttons side="right">
                 <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
             </ion-nav-buttons>
@@ -14,7 +17,7 @@
         </ion-header-bar>
         <ion-content padding="false" class="side-menu-right has-header">
             <ion-list class="list-borderless">
-                <ion-item class="item-icon-left" ui-sref="menu.whereCanWeDance" menu-close="">
+                <ion-item class="item-icon-left" ui-sref="menu.home" menu-close="">
                     <i class="icon ion-home"></i>Home</ion-item>
                 <ion-item class="item-icon-left" ui-sref="menu.preference" menu-close="">
                     <i class="icon ion-android-person"></i>Preference</ion-item>
@@ -25,7 +28,12 @@
                     <i class="icon ion-android-apps"></i>My Events</ion-item>
                 <ion-item class="item-icon-left" ui-sref="menu.eventAdd" menu-close="">
                     <i class="icon ion-android-add-circle"></i>Add Event</ion-item>
+                <ion-item class="item-icon-left" ui-sref="menu.login" menu-close="" ng-show="!{{isAuthenticated}}">
+                    <i class="icon ion-log-in"></i>Login</ion-item>
+                <ion-item class="item-icon-left" ui-sref="menu.logout" menu-close="" ng-show="{{isAuthenticated}}">
+                    <i class="icon ion-log-out"></i>Logout</ion-item>
             </ion-list>
+
         </ion-content>
     </ion-side-menu>
 </ion-side-menus>

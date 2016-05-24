@@ -7,10 +7,10 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
 
-      .state('menu.whereCanWeDance', {
+
+
+  .state('menu.home', {
     url: '/home',
     views: {
       'side-menu21': {
@@ -70,6 +70,26 @@ angular.module('app.routes', [])
     }
   })
 
+.state('menu.login', {
+    url: '/login',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/login.html',
+        controller: 'loginCtrl'
+      }
+    }
+  })
+
+.state('menu.logout', {
+    url: '/login',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/logout.html',
+        controller: 'logoutCtrl'
+      }
+    }
+  })
+
   .state('menu', {
     url: '/side-menu21',
     templateUrl: 'templates/menu.html',
@@ -78,6 +98,6 @@ angular.module('app.routes', [])
 
 $urlRouterProvider.otherwise('/side-menu21/home')
 
-  
+
 
 });
