@@ -1,0 +1,42 @@
+<ion-view view-title="Preference">
+  <ion-nav-buttons side="primary">
+    <!--<ion-profile-picture ng-model="myPicture"></ion-profile-picture>-->
+    <!--<button class="button button-clear image-round-button"><img src="img/abn.jpg"></button>-->
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <form name="signupForm" ng-submit="createUser(signupForm)">
+      <ion-list class="list-inset">
+        <ion-item class="item-divider item-dark">Personal Details</ion-item>
+        <ion-item>
+
+          <label class="item-input-inset">
+            <span class="input-label">Full Name</span>
+            <label class="item-input-wrapper">
+              <input type="text" ng-model="data.fullName" placeholder="Thomas Edison">
+            </label>
+          </label>
+
+          <label class="item-input-inset">
+            <span class="input-label">Email</span>
+            <label class="item-input-wrapper">
+              <input type="text" ng-model="data.email" placeholder="thomas@edison.com">
+            </label>
+          </label>
+
+          <label class="item-input-inset">
+            <span class="input-label">Password</span>
+            <label class="item-input-wrapper">
+              <input type="password" ng-model="data.password" placeholder="Thomas Edison">
+            </label>
+          </label>
+
+          <br />
+          <div class="button-bar half-width-button" >
+            <button class="button button-small light-border" type="submit">Sign Up</button>
+          </div>
+
+        </ion-item>
+      </ion-list>
+    </form>
+  </ion-content>
+</ion-view>
