@@ -9,11 +9,11 @@
    */
     .factory('AuthService', AuthService);
 
-  function AuthService($firebaseAuth, $firebaseObject, $firebaseArray, $state, $firebaseRef){
+  function AuthService($firebaseAuth, $firebaseObject, $firebaseArray, $state, $firebaseRef, $ionicHistory){
 
     var authUser = $firebaseAuth($firebaseRef.default); // We are using angular-fire $firebaseAuth to return an auth object.
 
-    return {
+    var authObject =  {
       /*
        The function receives an email, password, name and creates a new user
        After the user is created it stores the user details in the DB.
@@ -29,17 +29,17 @@
          *
          * And then we are catching any errors that might happen :P
          */
-        console.log(newEmail);
         authUser.$createUser({
           email: newEmail,
           password: newPassword,
           fullName: newFullName
         }).then(function(authData){
-          console.log(authData.provider, newEmail);
-          $firebaseRef.default.child("users").child(authData.uid).set({
+            $firebaseRef.default.child("users").child(authData.uid).set({
             name: newFullName,
             email: newEmail
           });
+
+          authObject.loginUser(newEmail, newPassword);
         }).catch(function(error){
           switch (error.code) {
             case "EMAIL_TAKEN":
@@ -63,6 +63,9 @@
           "email": email,
           "password": password
         }).then (function(authData){
+          $ionicHistory.nextViewOptions({
+            disableBack: true
+          });
           $state.go('menu.home');
         }).catch(function(error){
           console.log(error);
@@ -87,6 +90,6 @@
       }
 
     }
-
+    return authObject;
   }
 })();
