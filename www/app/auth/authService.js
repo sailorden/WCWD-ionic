@@ -97,6 +97,8 @@
        */
       logout: function(){
         authUser.$unauth();
+        $rootScope.isAuthenticated = false;
+        var isAuthenticated = $rootScope.isAuthenticated;
         $ionicHistory.nextViewOptions({
           disableBack: true
         });
