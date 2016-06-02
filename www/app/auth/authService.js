@@ -9,7 +9,7 @@
    */
     .factory('AuthService', AuthService);
 
-  function AuthService($firebaseAuth, $firebaseObject, $firebaseArray, $state, $firebaseRef, $ionicHistory){
+  function AuthService($firebaseAuth, $firebaseObject, $firebaseArray, $state, $firebaseRef, $ionicHistory, $rootScope){
 
     var authUser = $firebaseAuth($firebaseRef.default); // We are using angular-fire $firebaseAuth to return an auth object.
 
@@ -66,6 +66,9 @@
           $ionicHistory.nextViewOptions({
             disableBack: true
           });
+          $rootScope.isAuthenticated = true;
+          var isAuthenticated = $rootScope.isAuthenticated;
+
           $state.go('menu.home');
         }).catch(function(error){
           console.log(error);
@@ -87,6 +90,17 @@
         }).catch(function(error){
           console.log(error);
         });
+      },
+
+      /**
+       * Logout
+       */
+      logout: function(){
+        authUser.$unauth();
+        $ionicHistory.nextViewOptions({
+          disableBack: true
+        });
+        $state.go('menu.home');
       }
 
     }
