@@ -12,7 +12,13 @@
       /*
        This is the place for the features modules, like auth.
        */
-      'app.auth'
+      'app.auth',
+
+      //Registering rest of the modules
+      'app.home',
+      'app.event',
+      'app.preference',
+      'app.menu'
     ]);
 
 })();
