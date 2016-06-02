@@ -29,15 +29,16 @@
          *
          * And then we are catching any errors that might happen :P
          */
+        console.log(newEmail);
         authUser.$createUser({
           email: newEmail,
           password: newPassword,
           fullName: newFullName
         }).then(function(authData){
-          rootRef.child("users").child(authData.uid).set({
+          console.log(authData.provider, newEmail);
+          $firebaseRef.default.child("users").child(authData.uid).set({
             name: newFullName,
-            email: newEmail,
-            provider: authData.provider
+            email: newEmail
           });
         }).catch(function(error){
           switch (error.code) {
