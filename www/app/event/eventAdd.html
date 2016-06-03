@@ -1,88 +1,88 @@
 <ion-view view-title="New Event">
     <ion-content padding="true" class="has-header">
+      <form name="eventAddForm" ng-submit="eventAdd()">
         <ion-list class="list-inset">
-            <ion-item class="item-divider item-dark">Event Details</ion-item>
+            <ion-item class="item-divider item-dark">New Event Details</ion-item>
             <ion-item>
                 <label class="item-input-inset">
                     <span class="input-label">Venue</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="ABC Theater">
+                        <input type="text" ng-model="data.venueName" placeholder="Venue Name">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Type</span>
-                    <select class="item-input-wrapper">
-                        <option></option>
-                        <option>Courses</option>
-                        <option selected>Workshop</option>
-                        <option>Night Out</option>
-                        <option>Congress</option>
+                    <select class="item-input-wrapper" ng-model="data.type">
+                        <option value="course">Course</option>
+                        <option value="workshop">Workshop</option>
+                        <option value="night_out">Night Out</option>
+                        <option value="congress">Congress</option>
                     </select>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Dance Style</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="Salsa Cuban">
+                        <input ng-model="data.danceStyle" type="text" placeholder="Salsa / Tango / Bachata">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Teacher</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="Mr. Jason Derulo">
+                        <input ng-model="data.teacher" type="text" placeholder="Mr. Jason Derulo">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Country</span>
-                    <select class="item-input-wrapper">
-                        <option></option>
+                    <select ng-model="data.country" class="item-input-wrapper">
                         <option>Switzerland</option>
-                        <option selected>France</option>
-                        <option>Denmark</option>
                     </select>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">City</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="Geneva">
+                        <input ng-model="data.city" type="text" placeholder="Geneva">
                     </label>
                 </label>
 
-                <label class="item-input-inset">
+                <ion-toggle style="padding-left: 10px;" class="item item-borderless" ng-change="freeToggle()" ng-model="data.free" toggle-class="toggle-dark">Free Event</ion-toggle>
+
+                <label class="item-input-inset" ng-show="isNotFree">
                     <span class="input-label">Price</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="Free / $10 per person ">
+                        <input ng-model="data.price" type="text" placeholder="Rate per person">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Start Date</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="mm/dd/yyyy hh:mm">
+                        <input ng-model="data.startDate" type="text" placeholder="MM/DD/YYYY hh:mm">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">End Date</span>
                     <label class="item-input-wrapper">
-                        <input type="text" placeholder="mm/dd/yyyy hh:mm">
+                        <input ng-model="data.endDate" type="text" placeholder="MM/DD/YYYY hh:mm">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
                     <span class="input-label">Description</span>
-                    <textarea style="min-height: 70px;" class="item-input-wrapper" placeholder="Annual dance fiesta."></textarea>
+                    <textarea ng-model="data.description" style="min-height: 70px;" class="item-input-wrapper" placeholder="Event description"></textarea>
                 </label>
 
                 <br />
                 <div class="button-bar half-width-button" >
-                    <button class="button button-small light-border">Add Event</button>
+                    <button type="submit" class="button button-small light-border">Add Event</button>
                 </div>
             </ion-item>
         </ion-list>
+      </form>
     </ion-content>
 </ion-view>

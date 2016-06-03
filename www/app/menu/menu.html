@@ -19,16 +19,15 @@
             <ion-list class="list-borderless">
                 <ion-item class="item-icon-left" ui-sref="menu.home" menu-close="">
                     <i class="icon ion-home"></i>Home</ion-item>
-                <ion-item class="item-icon-left" ui-sref="menu.preference" menu-close="">
+                <ion-item class="item-icon-left" ui-sref="menu.preference" ng-show="isAuthenticated" menu-close="">
                     <i class="icon ion-android-person"></i>Preference</ion-item>
-                <ion-item class="item-icon-left" ui-sref="menu.event" menu-close="">
+                <ion-item class="item-icon-left" ui-sref="menu.event" ng-show="isAuthenticated" menu-close="">
                     <i class="icon ion-android-apps"></i>My Events</ion-item>
-                <ion-item class="item-icon-left" ui-sref="menu.eventAdd" menu-close="">
+                <ion-item class="item-icon-left" ui-sref="menu.eventAdd" ng-show="isAuthenticated" menu-close="">
                     <i class="icon ion-android-add-circle"></i>Add Event</ion-item>
                 <ion-item class="item-icon-left" ui-sref="menu.login" ng-hide="isAuthenticated" menu-close="" >
                     <i class="icon ion-log-in"></i>Login</ion-item>
-                <!--<ion-item class="item-icon-left" ui-sref="menu.signup" menu-close="" >-->
-                    <!--<i class="icon ion-log-in"></i>Register</ion-item>-->
+
               <div ng-click="logout()">
                 <ion-item class="item-icon-left" ng-show="isAuthenticated" menu-close="" >
                     <i class="icon ion-log-out"></i>Logout</ion-item>
