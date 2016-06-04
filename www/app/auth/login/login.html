@@ -1,18 +1,18 @@
-<ion-view view-title="Login" name="login-view">
+<ion-view view-title='{{"login.title" | translate}}' name="login-view">
   <ion-content padding="true" class="has-header">
     <form name="loginForm" ng-submit="loginEmail(loginForm)">
       <ion-list class="list-inset">
         <ion-item>
 
           <label class="item-input-inset">
-            <span class="input-label">Email</span>
+            <span class="input-label">{{"login.form.email" | translate}}</span>
             <label class="item-input-wrapper">
               <input type="text" ng-model="data.email" placeholder="Enter Email">
             </label>
           </label>
 
           <label class="item-input-inset">
-            <span class="input-label">Password</span>
+            <span class="input-label">{{"login.form.password" | translate}}</span>
             <label class="item-input-wrapper">
               <input type="password" ng-model="data.password" placeholder="Enter Password">
             </label>
@@ -20,8 +20,8 @@
 
           <br />
           <div class="button-bar half-width-button" >
-            <button type="submit" class="button button-small light-border">Login</button>
-            <button ui-sref="menu.signup" type="submit" class="button button-small light-border">Sign Up</button>
+            <button type="submit" class="button button-small light-border">{{"login.button" | translate}}</button>
+            <button ui-sref="menu.signup" type="submit" class="button button-small light-border">{{"login.signup" | translate}}</button>
           </div>
 
         </ion-item>
@@ -30,7 +30,7 @@
 
   <br/>
     <a href="#/passwordResetForm" class="button button-assertive button-outline button-small">
-      I forgot my password
+      {{"login.forgot_password" | translate}}
     </a>
   </ion-content>
 </ion-view>

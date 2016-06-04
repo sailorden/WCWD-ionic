@@ -1,62 +1,62 @@
-<ion-view view-title="Preference">
+<ion-view view-title='{{"preference.title" | translate}}'>
 <ion-nav-buttons side="primary">
         <ion-profile-picture ng-model="myPicture"></ion-profile-picture>
         <!--<button class="button button-clear image-round-button"><img src="img/abn.jpg"></button>-->
     </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
         <ion-list class="list-inset">
-            
-            <ion-item class="item-divider item-dark">Personal Details</ion-item>
+
+            <ion-item class="item-divider item-dark">{{"preference.personal_details" | translate}}</ion-item>
             <ion-item>
             <label class="item-input-inset">
-                <span class="input-label">Username</span>
+                <span class="input-label">{{"preference.username" | translate}}</span>
                 <label class="item-input-wrapper">
                     <input type="text" placeholder="Thomas E">
                 </label>
             </label>
             <label class="item-input-inset">
-                <span class="input-label">Email</span>
+                <span class="input-label">{{"preference.email" | translate}}</span>
                 <label class="item-input-wrapper">
                     <input type="text" placeholder="thomas@edison.com">
                 </label>
             </label>
             <label class="item-input-inset">
-                <span class="input-label">Full Name</span>
+                <span class="input-label">{{"preference.full_name" | translate}}</span>
                 <label class="item-input-wrapper">
                     <input type="text" placeholder="Thomas Edison">
                 </label>
             </label>
                 <br />
             <div class="button-bar half-width-button" >
-            <button class="button button-small light-border">Update</button>
+            <button class="button button-small light-border">{{"preference.form.update" | translate}}</button>
             </div>
             </ion-item>
 
-            <ion-item class="item-divider item-dark">Interested in..</ion-item>
+            <ion-item class="item-divider item-dark">{{"preference.interested" | translate}}</ion-item>
             <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Congress</ion-toggle>
             <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Course</ion-toggle>
             <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Night Out</ion-toggle>
             <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Workshop</ion-toggle>
             <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Only Free Events</ion-toggle>
 
-            <ion-item class="item-divider item-dark">Filters</ion-item>
+            <ion-item class="item-divider item-dark">{{"preference.filter.title" | translate}}</ion-item>
             <ion-item>
                 <label class="item-input-inset">
-                    <span class="input-label">Start Date</span>
+                    <span class="input-label">{{"preference.filter.start_date" | translate}}</span>
                     <label class="item-input-wrapper">
                         <input type="text" placeholder="mm/dd/yyyy hh:mm">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
-                    <span class="input-label">End Date</span>
+                    <span class="input-label">{{"preference.filter.end_date" | translate}}</span>
                     <label class="item-input-wrapper">
                         <input type="text" placeholder="mm/dd/yyyy hh:mm">
                     </label>
                 </label>
 
                 <label class="item-input-inset">
-                    <span class="input-label">Country</span>
+                    <span class="input-label">{{"preference.filter.coutnry" | translate}}</span>
                     <select class="item-input-wrapper">
                         <option></option>
                         <option>Switzerland</option>
@@ -66,7 +66,7 @@
                 </label>
 
                 <label class="item-input-inset">
-                    <span class="input-label">Notify every</span>
+                    <span class="input-label">{{"preference.notify" | translate}}</span>
                     <select class="item-input-wrapper">
                         <option></option>
                         <option>2 days</option>
@@ -77,7 +77,7 @@
 
                 <br />
                 <div class="button-bar half-width-button" >
-                    <button class="button button-small light-border">Update</button>
+                    <button class="button button-small light-border">{{"preference.form.update" | translate}}</button>
                 </div>
             </ion-item>
 

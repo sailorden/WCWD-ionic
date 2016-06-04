@@ -159,37 +159,37 @@
 <script id="app/home/modal.html" type="text/ng-template">
     <ion-modal-view>
         <ion-header-bar class="bar bar-header bar-dark">
-            <h1 class="title">Filter Events</h1>
-            <button class="button button-primary" ng-click="modal.hide()">Close</button>
+            <h1 class="title">{{"wcwd.filter.events" | translate }}</h1>
+            <button class="button button-primary" ng-click="modal.hide()">{{"wcwd.filter.close" | translate }}</button>
         </ion-header-bar>
         <ion-content class="padding">
             <ion-list class="list-inset">
 
-                <ion-item class="item-divider item-dark">Interested in..</ion-item>
+                <ion-item class="item-divider item-dark">{{"wcwd.filter.interested" | translate }}</ion-item>
                 <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Congress</ion-toggle>
                 <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Course</ion-toggle>
                 <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Night Out</ion-toggle>
                 <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Workshop</ion-toggle>
                 <ion-toggle class="item-input-wrapper" toggle-class="toggle-dark">Only Free Events</ion-toggle>
 
-                <ion-item class="item-divider item-dark">Filters </ion-item>
+                <ion-item class="item-divider item-dark">{{wcwd.filter.title | translate }} </ion-item>
                 <ion-item>
                     <label class="item-input-inset">
-                        <span class="input-label">Start Date</span>
+                        <span class="input-label">{{"wcwd.filter.start_date" | translate }}</span>
                         <label class="item-input-wrapper">
                             <input type="text" placeholder="mm/dd/yyyy hh:mm">
                         </label>
                     </label>
 
                     <label class="item-input-inset">
-                        <span class="input-label">End Date</span>
+                        <span class="input-label">{{"wcwd.filter.end_date" | translate }}</span>
                         <label class="item-input-wrapper">
                             <input type="text" placeholder="mm/dd/yyyy hh:mm">
                         </label>
                     </label>
 
                     <label class="item-input-inset">
-                        <span class="input-label">Country</span>
+                        <span class="input-label">{{"wcwd.filter.country" | translate }}</span>
                         <select class="item-input-wrapper">
                             <option></option>
                             <option>Switzerland</option>
@@ -200,8 +200,8 @@
 
                     <br />
                     <div class="button-bar half-width-button" >
-                        <button class="button light-border button-small">Apply</button>
-                        <button class="button light-border button-small">Save</button>
+                        <button class="button light-border button-small">{{"wcwd.filter.apply" | translate }}</button>
+                        <button class="button light-border button-small">{{"wcwd.filter.save" | translate }}</button>
                     </div>
 
                 </ion-item>
