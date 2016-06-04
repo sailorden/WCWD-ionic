@@ -5,6 +5,8 @@
 <ion-view view-title="WCWD" id="page1">
     <ion-nav-buttons side="primary">
         <button class="button button-stable icon ion-ios-color-filter-outline" ng-click="modal.show()"> Filter</button>
+        <button style="padding-left: 10px;" class="button button-clear" ng-click="change_language('en')"><strong ng-if="language != 'fr'"> EN</strong><div ng-if="language == 'fr'"> EN</div></button>
+        <button class="button button-clear" ng-click="change_language('fr')"><strong ng-if="language == 'fr'"> FR</strong><div ng-if="language != 'fr'"> FR</div></button>
     </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
         <ion-list class="list-borderless">

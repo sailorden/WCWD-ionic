@@ -1,0 +1,9 @@
+{
+  "menu.title" : "Menu",
+  "menu.home" : "Home",
+  "menu.Preference": "Preference",
+  "menu.my_event": "My Events",
+  "menu.add_event": "Add Event",
+  "menu.login": "Login",
+  "menu.logout": "Logout"
+}

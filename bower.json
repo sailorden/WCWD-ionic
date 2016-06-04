@@ -8,6 +8,7 @@
     "angular-mocks": "^1.5.5",
     "ionic-material": "^0.4.2",
     "ion-md-input": "^1.0.4",
-    "ion-profile-picture": ""
+    "ion-profile-picture": "",
+    "angular-translate-loader-static-files": "2.8.1"
   }
 }

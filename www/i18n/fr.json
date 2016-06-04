@@ -1,0 +1,10 @@
+{
+  "menu.title" : "Menu",
+  "menu.home" : "Accueil",
+  "menu.Preference": "Préférence",
+  "menu.my_event": "Mes événements",
+  "menu.add_event": "Ajouter un évènement",
+  "menu.login": "S'identifier",
+  "menu.logout": "Se déconnecter"
+
+}
